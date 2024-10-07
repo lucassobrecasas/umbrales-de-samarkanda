@@ -1,2 +1,2 @@
-# umbrales-de-samarkanda.github.io
+# umbrales-de-samarkanda
 revista literaria diversa under
