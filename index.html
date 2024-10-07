@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre de tu Revista Literaria</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --text-color: #333;
+            --background-color: #f4f4f4;
+            --accent-color: #e74c3c;
+        }
+        
+        body {
+            font-family: 'Libre Baskerville', serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px 0;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1500x600');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 1.5rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        main {
+            padding: 40px 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .article-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .article-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .article-image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .article-content {
+            padding: 20px;
+        }
+
+        .article-content h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: var(--secondary-color);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+            }
+
+            nav ul {
+                margin-top: 20px;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-content p {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">Tu Revista Literaria</div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#articulos">Artículos</a></li>
+                    <li><a href="#poesia">Poesía</a></li>
+                    <li><a href="#ficcion">Ficción</a></li>
+                    <li><a href="#entrevistas">Entrevistas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido a Tu Revista Literaria</h1>
+            <p>Explorando las fronteras de la literatura contemporánea</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section id="articulos">
+            <h2>Artículos Destacados</h2>
+            <div class="grid">
+                <article class="article-card">
+                    <div class="article-image" style="background-image: url('https://via.placeholder.com/300x200');"></div>
+                    <div class="article-content">
+                        <h3>Título del Artículo</h3>
+                        <p>Breve extracto del artículo que captura la esencia del contenido y atrae al lector...</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </article>
+                <!-- Más artículos aquí -->
+            </div>
+        </section>
+
+        <section id="poesia">
+            <h2>Poesía</h2>
+            <div class="grid">
+                <article class="article-card">
+                    <div class="article-image" style="background-image: url('https://via.placeholder.com/300x200');"></div>
+                    <div class="article-content">
+                        <h3>Título del Poema</h3>
+                        <p>Primeros versos del poema que invitan al lector a sumergirse en la obra completa...</p>
+                        <a href="#" class="read-more">Leer poema</a>
+                    </div>
+                </article>
+                <!-- Más poemas aquí -->
+            </div>
+        </section>
+
+        <!-- Secciones adicionales para Ficción y Entrevistas -->
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tu Revista Literaria. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
