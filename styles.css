@@ -1,4 +1,4 @@
-/* SECCION INICIO */
+⁹/* SECCION INICIO */
 
         :root {
             --primary-color: #2c3e50;
@@ -61,7 +61,7 @@
         }
 
         .hero {
-            background-image: ('img/1000081147.jpg');
+            background-image: ("/img/1000081147.jpg");
             background-size: cover;
             background-position: center;
             height: 60vh;
