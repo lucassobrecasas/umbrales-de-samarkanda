@@ -49,7 +49,7 @@
 
         nav ul li {
             margin-left: 0px;
-            display: flex; 
+            display: inline; 
             
         }
 
@@ -69,7 +69,7 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            color: blue;
+            color: white; 
         }
 
         .hero-content h1 {
