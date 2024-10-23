@@ -68,6 +68,7 @@
 
         nav ul {
             list-style-type: none;
+          height: auto; 
             padding: 0;
             display: flex; 
             justify-content: space-around;
@@ -95,7 +96,7 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            color: red;   
+            color: green;   
         }
 
         .hero-content h1 {
