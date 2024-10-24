@@ -59,7 +59,7 @@
         }
 
         .logo {
-            font-size: 5rem;
+            font-size: 3rem;
             font-weight: bold;
            display: flex;
           justify-content: center;
@@ -69,7 +69,7 @@
         nav ul {
             list-style-type: none;
           height: auto; 
-          margin-bottom: 50px;
+          margin-bottom: 0px;
             padding: 0;
             display: flex; 
             justify-content: space-around;
@@ -97,7 +97,7 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            color: orange;   
+            color: brown;   
         }
 
         .hero-content h1 {
