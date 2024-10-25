@@ -72,7 +72,7 @@ nav {
       background-color: #333;
       color: #fff;
       padding: 0; 
-      margin-bottom: 0;
+      margin: 0.5px 0 20px ;
     }
 
         nav ul {
@@ -106,7 +106,7 @@ nav {
             align-items: center;
             justify-content: center;
             text-align: center;
-            color: black;   
+            color: blue;   
         }
 
         .hero-content h1 {
